@@ -65,4 +65,33 @@
   .option-left {
     margin-left: 0;
   }
+
+  .latest-news-container,
+  .latest-deals-container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .latest-news-container .latest-news-article .news-article-preview h4 a,
+  .latest-deals-container .latest-deals-article .deals-article-preview h4 a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .latest-news-container .latest-news-article .news-article-preview ul li a {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .headings.with-link .headings-link {
+    font-size: 16px;
+  }
+
+  .latest-deals-container .latest-deals-article .deals-article-preview ul {
+    font-size: 16px;
+  }
+
+  .latest-deals-container .latest-deals-article .deals-article-preview ul .old-price {
+    font-size: 13px;
+  }
 }
