@@ -94,4 +94,9 @@
   .latest-deals-container .latest-deals-article .deals-article-preview ul .old-price {
     font-size: 13px;
   }
+
+  .categories-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
 }

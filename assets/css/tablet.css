@@ -100,4 +100,9 @@
   .latest-deals-container .latest-deals-article .deals-article-image .deals-ribbon {
     display: block;
   }
+
+  .categories-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }

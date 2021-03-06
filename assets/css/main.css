@@ -216,6 +216,10 @@ nav ul {
   margin: 0 auto;
 }
 
+.category-article {
+  margin: 10px 0;
+}
+
 .category-article .category-headline {
   background-size: cover;
   background-position: 50%;
