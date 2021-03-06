@@ -45,31 +45,64 @@
   .highlights .news-highlight.full-height .highlight-content .cover-title {
     font-size: 40px;
   }
-}
 
-.option-menu {
-  display: flex;
-}
+  .option-menu {
+    display: flex;
+  }
 
-.custom-anchor2 {
-  display: none;
-}
+  .custom-anchor2 {
+    display: none;
+  }
 
-.middle-menu {
-  margin-left: 100px;
-  display: block;
-}
+  .middle-menu {
+    margin-left: 100px;
+    display: block;
+  }
 
-.option-left {
-  margin-left: 100px;
-}
+  .option-left {
+    margin-left: 100px;
+  }
 
-.header-logo {
-  position: absolute;
-  height: 43%;
-}
+  .header-logo {
+    position: absolute;
+    height: 43%;
+  }
 
-#logo {
-  width: 5.1em;
-  bottom: 25px;
+  #logo {
+    width: 5.1em;
+    bottom: 25px;
+  }
+
+  .latest-news-container,
+  .latest-deals-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .latest-news-container .latest-news-article,
+  .latest-deals-container .latest-deals-article {
+    flex-direction: column;
+  }
+
+  .latest-news-container .latest-news-article .news-article-image,
+  .latest-deals-container .latest-deals-article .deals-article-image {
+    margin-bottom: 8px;
+    margin-right: 0;
+    width: 100%;
+    height: initial;
+    padding-top: 50%;
+  }
+
+  .latest-deals-container .latest-deals-article .deals-article-image {
+    padding-top: 74.5%;
+  }
+
+  .latest-deals-container .latest-deals-article .deals-article-image .deals-ribbon {
+    display: block;
+  }
+
+  .categories-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }
