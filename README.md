@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-You can check out our live demo here [here](https://wajahat414.github.io/mv-wk2_Responsive-Website/)
+You can check out our live demo here [here](https://joshuaivie.github.io/mv-wk2_Responsive-Website/)
 
 ## Getting Started
 
@@ -30,11 +30,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
+https://github.com/joshuaivie
+
+👤 **Author2**
+
 https://github.com/wajahat414
 
 👤 **Author2**
 
-https://github.com/joshuaivie
+https://github.com/MrRamoun
 
 ## 🤝 Contributing
 
